@@ -31,8 +31,9 @@ namespace MvcExercise.Controllers
         {
             return new List<Customer>
             {
-                new Customer { Id = 1, Name = "John Smith" },
-                new Customer { Id = 2, Name = "Mary Williams" }
+                new Customer { Id = 1, Name = "No Pain No Gain" },
+                new Customer { Id = 2, Name = "Shi tipa al doilea customer" },
+				new Customer { Id = 3, Name = "Fuck the Police"}
             };
         }
     }
